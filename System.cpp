@@ -262,7 +262,6 @@ int main()
 { 
 	signal(SIGINT, intHandler);
 	
-	sem_init(&end_mutex, 0, 1); 
 	sem_init(&empty_mutex, 0, 1); 
 	sem_init(&mutex, 0, 1); 
 	sem_init(&full, 0, 0); 
